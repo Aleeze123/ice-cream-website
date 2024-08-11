@@ -4,7 +4,6 @@ function changePage(src) {
 }
 
 
-// Define progress data for each column and skill
 
 const progressData = {
     column1: [
@@ -16,7 +15,7 @@ const progressData = {
     ]
 };
 
-// Function to update progress bars
+
 function updateProgress() {
     // Update column 1
     const column1Skills = document.querySelectorAll('.rating.review-column .rating-item .bar-container .bar');
